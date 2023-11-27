@@ -1,0 +1,17 @@
+.header {
+    padding-bottom: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    letter-spacing: 0.8rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.logo {
+    cursor: pointer;
+}

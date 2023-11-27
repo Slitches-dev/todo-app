@@ -1,0 +1,4 @@
+.todoList {
+    border-radius: 5px;
+    background-color: var(--card-bg);
+}

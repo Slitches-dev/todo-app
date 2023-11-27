@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body[data-theme='light'] {
+    --bg-color: #f6f6f8;
+    --card-bg: white;
+    --text-color: hsl(0, 0%, 26%);
+    --inactive-color: hsl(236, 9%, 61%);
+    --active-color: hsl(220, 98%, 61%);
+    --hover-color: hsl(235, 19%, 35%);
+    --check-color: hsl(233, 11%, 84%);
+    --shadow-color: hsla(240, 5%, 85%, 0.603);
+    --bg-img-mobile: url(/images/bg-mobile-light.jpg);
+    --bg-img-desktop: url(/images/bg-desktop-light.jpg);
+}
+
+body[data-theme='dark'] {
+    --bg-color: #171723;
+    --card-bg: hsl(235, 24%, 19%);
+    --text-color: hsl(0, 0%, 73%);
+    --inactive-color: hsl(234, 11%, 52%);
+    --active-color: hsl(220, 98%, 61%);
+    --hover-color: hsl(236, 33%, 92%);
+    --check-color: hsl(233, 14%, 35%);
+    --shadow-color: hsla(0, 0%, 7%, 0.877);
+    --bg-img-mobile: url(/images/bg-mobile-dark.jpg);
+    --bg-img-desktop: url(/images/bg-desktop-dark.jpg);
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    background-image: var(--bg-img-desktop);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% 17rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+.container {
+    padding-top: 4.5rem;
+    padding-bottom: 4rem;
+    max-width: 32rem;
+    margin: 0 auto;
+}

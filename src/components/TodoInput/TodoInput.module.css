@@ -1,0 +1,12 @@
+.container {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    background-color: var(--card-bg);
+    border-radius: 5px;
+}
+.input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: var(--card-bg);
+}
